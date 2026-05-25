@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moje Portfolio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background-color: #0d0d0d;
+      color: #ccc;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px 20px;
+      border-bottom: 1px solid #2a5a4a;
+    }
+    header h1 {
+      color: #4caf87;
+      font-size: 2.5rem;
+    }
+    header p {
+      color: #aaa;
+      margin-top: 8px;
+    }
+    nav {
+      background-color: #111;
+      text-align: center;
+      padding: 15px;
+      border-bottom: 1px solid #2a5a4a;
+    }
+    nav a {
+      color: #4caf87;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 1rem;
+    }
+    nav a:hover { text-decoration: underline; }
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    section { margin-bottom: 40px; }
+    section h2 {
+      color: #4caf87;
+      font-size: 1.5rem;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #333;
+      margin-bottom: 20px;
+    }
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .skill-tag {
+      border: 1px solid #4caf87;
+      color: #4caf87;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+    a { color: #4caf87; }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #555;
+      border-top: 1px solid #222;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Šimon Moravčík</h1>
+    <p>Junior Developer | C# · .NET · Blazor</p>
+  </header>
+
+  <nav>
+    <a href="#omne">O mne</a>
+    <a href="#zrucnosti">Zručnosti</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+
+  <main>
+    <section id="omne">
+      <h2>O mne</h2>
+      <p>Som junior developer na praxi. Pracujem na svojom prvom portfolio projekte publikovanom cez GitHub Pages.</p>
+    </section>
+
+    <section id="zrucnosti">
+      <h2>Zručnosti</h2>
+      <div class="skills">
+        <span class="skill-tag">C#</span>
+        <span class="skill-tag">.NET</span>
+        <span class="skill-tag">Blazor</span>
+        <span class="skill-tag">Git</span>
+        <span class="skill-tag">GitHub</span>
+        <span class="skill-tag">VS Code</span>
+      </div>
+    </section>
+
+    <section id="kontakt">
+      <h2>Kontakt</h2>
+      <p>GitHub: <a href="https://github.com/simonmoravcik2009-spec" target="_blank">github.com/simonmoravcik2009-spec</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Šimon Moravčík</p>
+  </footer>
+
+</body>
+</html>
