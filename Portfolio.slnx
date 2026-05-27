@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Portfolio.AppHost/Portfolio.AppHost.csproj" />
+    <Project Path="src/Portfolio.ServiceDefaults/Portfolio.ServiceDefaults.csproj" />
+    <Project Path="src/Web/Web.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/UnitTests/UnitTests.TestProject/UnitTests.TestProject.csproj" Id="0cc8d321-e23e-420b-b623-3efa7237a6ee" />
+  </Folder>
+</Solution>
