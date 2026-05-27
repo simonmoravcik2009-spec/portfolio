@@ -7,3 +7,7 @@
 /src/Portfolio.ServiceDefaults/obj
 /src/Web/obj
 /test/UnitTests/UnitTests.TestProject/obj
+/src/Portfolio.AppHost/bin/
+/src/Web/bin/
+/test/UnitTests/UnitTests.TestProject/bin
+/src/Portfolio.ServiceDefaults/bin
